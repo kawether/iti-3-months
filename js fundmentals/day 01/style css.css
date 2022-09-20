@@ -1,0 +1,39 @@
+
+#box {
+    width: 600px; 
+     height: 600px; 
+    background-color: rgba(185, 47, 12, 0.801);
+    margin: auto;
+    box-sizing: border-box;
+    border: 10px solid black;
+  }
+  input {
+    border: none;
+    width: 400px;
+    border-radius: 30px;
+    margin: 20px 80px;
+    height: 70px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+#hello{height: 30px;
+font-size: 20px;
+font-style: oblique;
+text-align: center;
+word-spacing: 5px;}
+#btn {
+    border-radius: 50px;
+    margin: 1px 180px;
+    border-color: black;
+    width: 200px;
+    padding: 8px;
+    background-color: rgba(172, 41, 8, 0.651);
+    font-size: 30px;
+  }
+#photo{ position: relative;
+bottom:50px;
+right:-90px;
+height: 250px;}
+button:hover{ background-color: rgb(202, 197, 224);
+color: rgba(146, 44, 19, 0.61);}
+    

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> var arr = []
+    for ( var i = 0 ; i<5 ; i++) { var num = prompt ("enter value");
+arr.push (num)}
+    document.write ( "<h1> sorting </h1>")
+    document.write ( "u've entered the values of "  +  arr  + "<br> <br>")
+    document.write ("ur values after being sorted descending " + arr.sort (function (a,b) {return b-a;
+        
+    })+"<br>")
+    document.write ("ur values after being sorted ascending " + arr.sort (function (a,b) {return a-b;
+        
+    }) + "<br>")
+    </script>
+</body>
+</html>

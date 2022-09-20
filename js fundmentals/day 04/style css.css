@@ -1,0 +1,35 @@
+#box {
+  width: 600px; 
+   height: 600px; 
+  background-color: rgba(185, 47, 12, 0.801);
+  margin: auto;
+  box-sizing: border-box;
+  border: 10px solid black;
+}
+input {
+  border: none;
+  width: 400px;
+  border-radius: 30px;
+  margin: 50px 80px;
+  height: 70px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#btn {
+  border-radius: 50px;
+  margin: 1px 180px;
+  border-color: black;
+  width: 200px;
+  padding: 8px;
+  background-color: rgba(172, 41, 8, 0.651);
+  font-size: 30px;
+}
+.container {
+  height: 50px;
+  width: 550px; 
+  margin: 20px 20px;
+  background-color: white;
+}
+.done {
+  background-color: rgb(153, 51, 90);
+}
