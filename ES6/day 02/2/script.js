@@ -1,0 +1,1 @@
+let shapes = ["rectangle","square","circle","triangle"]

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(39, 39, 65);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(202, 202, 213)
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+   background-color: rgb(1, 1, 19);
+   overflow: hidden;
+}
+li{
+float: left;
+letter-spacing: 1px;
+}
+li a{
+display: block;
+color: rgb(202, 202, 213);
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(4, 4, 56);
+}
+
+
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.movie{
+    width: 200px;
+    color: aliceblue;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(1, 1, 19);
+    padding: 2px;
+}
+.movie:hover{
+    background-color: rgb(4, 4, 56);
+    border: rgb(0, 0, 26) 4px solid;
+}
+.movie img{
+    width: 100%;
+    border-radius: 20px;
+}
+.movie a {
+    text-decoration: none;
+    color: rgb(202, 202, 213);
+}
+
+
+h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+
+.contain img{
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contain h3{
+    color: rgb(202, 202, 213);
+    margin: 20px;
+}
+.contain {
+    display: flex;
+}
+.contain p{
+    width: 300px;
+    letter-spacing: 1px;
+    color: rgb(202, 202, 213);
+}
